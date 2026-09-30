@@ -13,10 +13,24 @@ public class autobus
     {
     return sitzplatze;
 }
+
     public boolean getzAnhanger()
     { 
         return anhanger;
     }
 
+    public void setKennzeichen(String neuesKennzeichen)
+    {
+        kennzeichen=neuesKennzeichen;
+    }
+    
+    public void setSitzplatze(int neueSitzplatze)
+    {
+        sitzplatze=neueSitzplatze;
+    }
+    public void setAnganhger(boolean neuerAnhanger)
+    {
+        anhanger=neuerAnhanger;
+    }
 }
 
